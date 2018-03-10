@@ -1,4 +1,4 @@
-package ennakko;
+package testi.ennakko;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package ennakko;
-
-import java.util.Arrays;
+package testi.ennakko;
 
 public class Pelaaja {
 
