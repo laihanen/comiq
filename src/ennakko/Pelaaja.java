@@ -1,7 +1,5 @@
 package ennakko;
 
-import java.util.Arrays;
-
 public class Pelaaja {
 
     public final static int käsi = 5;
@@ -40,7 +38,6 @@ public class Pelaaja {
         }
         return summa;
     }
-
 
     public boolean vari(){
         int summa = 0;
