@@ -66,4 +66,14 @@ public class Pelaaja {
         }
         return true;
     }
+
+    public boolean varisuora(){
+        int summa = 0;
+        for (int i = 0; i < kortit.length; i++) {
+            for (int a = i + 1; a < kortit.length; a++){
+                if (kortit[i].getMaa().equals(kortit[a].getMaa()) && kortit[i].getArvo() != kortit[i+1].getArvo()) {
+                    summa++;
+                }
+            }
+        }
 }
